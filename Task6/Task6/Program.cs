@@ -22,13 +22,13 @@ namespace Task6
             {
                 Console.Clear();
                 Console.WriteLine("Please Enter A Letter");
-                letter1 = Console.ReadLine();
+                letter1 = Console.ReadLine().ToLower();
 
                 Console.WriteLine("Please Enter A Vowel");
-                letter2 = Console.ReadLine();
+                letter2 = Console.ReadLine().ToLower();
 
                 Console.WriteLine("Please Enter Another Letter");
-                letter3 = Console.ReadLine();
+                letter3 = Console.ReadLine().ToLower();
 
 
 
@@ -52,7 +52,7 @@ namespace Task6
                 }
 
                 Console.Write("Do you want to try again(y/n)? ");
-                tryAgain = Console.ReadLine();
+                tryAgain = Console.ReadLine().ToLower();
             } while (tryAgain == "y");
             }                        
         }
