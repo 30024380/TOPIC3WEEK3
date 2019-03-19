@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Name: Logan Tawhiri
+//Purpose: Even and Odd num
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
